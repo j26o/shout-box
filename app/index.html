@@ -5,12 +5,12 @@
     <title>chat client</title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width">
-    <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
     <!-- build:css(.) styles/vendor.css -->
     <!-- bower:css -->
     <!-- endbower -->
     <!-- endbuild -->
     <!-- build:css(.tmp) styles/main.css -->
+    <link href='http://fonts.googleapis.com/css?family=Gentium+Basic:400,700|Open+Sans:400,300,600' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="styles/main.css">
     <!-- endbuild -->
     <!-- build:js scripts/vendor/modernizr.js -->
@@ -20,12 +20,13 @@
 
   </head>
   <body>
-    <h1 class="hidden">Socket.io Chat Client</h1>
+    <h1 class="hidden">Shout Box</h1>
     <div id="main-wrap">
-      <div class="chat-box">
-        <input type="text" id="chat-input" />
+      <div id="chat-box">
+        <h2>Hi! Welcome to the shoutbox.</h2>
+        <input type="text" id="chat-input" placeholder="Type your name here." autofocus />
       </div>
-      <div class="chat-list"></div>
+      <div id="chat-list"></div>
     </div>
 
 
